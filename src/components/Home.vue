@@ -107,7 +107,7 @@ export default {
     saveNavState (activePath) {
       window.sessionStorage.setItem('activePath', activePath)
       this.activePath = activePath
-      console.log(this.$route)
+      // console.log(this.$route)
     }
   }
 }
